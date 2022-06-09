@@ -1,0 +1,30 @@
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.circle {
+
+    width: 10px;
+    height: 10px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.circle__list{
+    display: flex;
+  
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.tech-skills__list{
+   
+}
+.tech-skills__item{
+    display: flex;
+   
+        justify-content: space-between;
+    /* align-items: center;
+    text-align: center; */
+   
+}
