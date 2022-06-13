@@ -60,6 +60,7 @@ background-color: #0fb64149;
 /* -----------------------------AVATAR------------------------------ */
 .avatar{
     border-radius: 150px;
+    margin-bottom: 30px;
 }
 /* -----------------------------END AVATAR------------------------------ */
 /* -----------------------------NAME------------------------------ */
@@ -71,6 +72,7 @@ background-color: #0fb64149;
         /* line-height: 78px; */
     
         color: #CECACA;
+        margin-bottom: 30px;
 }
 .last-name{
     font-family: 'Montserrat';
@@ -79,7 +81,7 @@ background-color: #0fb64149;
         font-size: 48px;
         /* line-height: 60px; */
         /* identical to box height */
-    
+    margin-bottom: 30px;
     
         color: #FFFFFF;
 }
@@ -89,7 +91,7 @@ background-color: #0fb64149;
         font-weight: 700;
         font-size: 32px;
         /* line-height: 40px; */
-    
+    margin-bottom: 50px;
         color: #CECACA;
 }
 /* -----------------------------END NAME------------------------------ */
@@ -97,9 +99,31 @@ background-color: #0fb64149;
 
 .sidbar{background-color: rgba(196, 196, 196, 0.3);
     border-radius: 10px;
-    padding: 50px 20px ;
+    padding: 50px 50px ;
 }
 /* -----------------------------END SIDBARE------------------------------ */
+/* -----------------------------CONTACT------------------------------ */
+.contact__link{
+    font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+}
+.link svg{
+    width: 50px;
+    fill: #FFFFFF;
+}
+.contact__item a{
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
+}
+/* -----------------------------END CONTACT------------------------------ */
 .home{
     display: flex;
     gap: 50px;
