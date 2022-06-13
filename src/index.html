@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/normalize.css" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.jpeg" />
     <title>CV</title>
   </head>
   <body>
-    <div class="container">
-      <section class="header">
+    <section class="header">
+      <div class="container">
         <nav class="nav">
+          <a class="logo" href="#"
+            ><img
+              src="./assets/favicon/favicon.jpeg"
+              alt=""
+              width="90"
+              height="90"
+          /></a>
           <ul class="nav__list">
             <li class="nav__item"><a href="" class="nav__link">Summary</a></li>
             <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
@@ -26,303 +34,315 @@
             <li class="nav__item"><a href="" class="nav__link">Skills</a></li>
           </ul>
         </nav>
-      </section>
-      <section class="sidbar">
-        <img src="./assets/image/avatar.jpg" alt="avatar" width="320" />
-        <h2 class="profile">Inna Dmytrenko</h2>
-        <h1 class="title">Trainee Front-End Developer</h1>
-        <ul class="contact__list">
-          <li class="contact__item">
-            <a href="mailto:dmytinna@gmail.com" class="link">
-              <svg>
-                <use xlink:href="./assets/image/sprite.svg#mdi_mail"></use>
-              </svg>
-              <span>dmytinna@gmail.com</span>
-            </a>
-          </li>
-          <li class="contact__item">
-            <a href="tel:+38 (066) 725-0187" class="link">
-              <svg>
-                <use xlink:href="./assets/image/sprite.svg#mdi_call"></use>
-              </svg>
-              <span>+38 (066) 725-0187</span>
-            </a>
-          </li>
-          <li class="contact__item">
-            <a
-              href="https://www.google.com/maps/search/Kyiv,+Ukraine,+02000/@50.4021351,30.2518221,10z"
-              class="link"
-            >
-              <svg>
-                <use
-                  xlink:href="./assets/image/sprite.svg#mdi_location_on"
-                ></use>
-              </svg>
-              <span>Kyiv, Ukraine</span>
-            </a>
-          </li>
-        </ul>
-        <ul class="tech-skills__list">
-          <h3>Technical Skills</h3>
-          <li class="tech-skills__item">
-            <div>HTML</div>
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            <span>CSS</span>
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
+      </div>
+    </section>
+    <div class="container">
+      <div class="home">
+        <section class="sidbar">
+          <img
+            class="avatar"
+            src="./assets/image/avatar.jpg"
+            alt="avatar"
+            width="320"
+          />
+          <h2 class="profile">
+            <span class="name">Inna</span> <span class="last-name">Dmytrenko</span>
+          </h2>
+          <h1 class="title">Trainee Front-End Developer</h1>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <a href="mailto:dmytinna@gmail.com" class="link">
+                <svg>
+                  <use xlink:href="./assets/image/sprite.svg#mdi_mail"></use>
+                </svg>
+                <span>dmytinna@gmail.com</span>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a href="tel:+38 (066) 725-0187" class="link">
+                <svg>
+                  <use xlink:href="./assets/image/sprite.svg#mdi_call"></use>
+                </svg>
+                <span>+38 (066) 725-0187</span>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a
+                href="https://www.google.com/maps/search/Kyiv,+Ukraine,+02000/@50.4021351,30.2518221,10z"
+                class="link"
+              >
+                <svg>
+                  <use
+                    xlink:href="./assets/image/sprite.svg#mdi_location_on"
+                  ></use>
+                </svg>
+                <span>Kyiv, Ukraine</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="tech-skills__list">
+            <h3>Technical Skills</h3>
+            <li class="tech-skills__item">
+              <div>HTML</div>
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              <span>CSS</span>
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
 
-          <li class="tech-skills__item">
-            SASS
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            JavaScript
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            GIT
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            Webpack
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            React
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            <div>Trello</div>
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            <div>NodeJS</div>
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-        </ul>
-        <ul class="soft-skills__list">
-          <h3>Soft Skills</h3>
-          <li class="soft-skills__item">
-            Ability to analyze and structure information;
-          </li>
-          <li class="soft-skills__item">Teamwork and results;</li>
-          <li class="soft-skills__item">
-            Autonomy, responsibility and activism
-          </li>
-        </ul>
-        <ul class="tech-skills__list">
-          <h3>Languages</h3>
-          <li class="tech-skills__item">
-            <div>English</div>
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
-          <li class="tech-skills__item">
-            <span>Ukraine</span>
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </li>
+            <li class="tech-skills__item">
+              SASS
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              JavaScript
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              GIT
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              Webpack
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              React
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              <div>Trello</div>
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              <div>NodeJS</div>
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+          </ul>
+          <ul class="soft-skills__list">
+            <h3>Soft Skills</h3>
+            <li class="soft-skills__item">
+              Ability to analyze and structure information;
+            </li>
+            <li class="soft-skills__item">Teamwork and results;</li>
+            <li class="soft-skills__item">
+              Autonomy, responsibility and activism
+            </li>
+          </ul>
+          <ul class="tech-skills__list">
+            <h3>Languages</h3>
+            <li class="tech-skills__item">
+              <div>English</div>
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+            <li class="tech-skills__item">
+              <span>Ukraine</span>
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
 
-          <li class="tech-skills__item">
-            russian
-            <div class="circle__list">
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
-              <div class="circle"></div>
+            <li class="tech-skills__item">
+              russian
+              <div class="circle__list">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </li>
+          </ul>
+          <div>
+            <span>Social</span>
+            <a href="https://www.linkedin.com/in/inna-dmytrenko/?locale=en_US"
+              >linkedin.com/in</a
+            >
+          </div>
+        </section>
+        <div class="right">
+          <section class="summary">
+            <div>
+              <h3>SUMMARY</h3>
+              <p>
+                Efficient Front-End developer with skills in HTML, CSS,
+                JavaScript, and React. Search for a full-time position in a
+                company that's aimed at making both everyday life and business
+                easier, more productive and user- friendly. I have hands-on
+                experience in following Agile /Scrum methodology when working in
+                a team. I'm ready to learn, and I'm a fast learner, responsible,
+                and ready for challenging tasks.
+              </p>
             </div>
-          </li>
-        </ul>
-        <div>
-          <span>Social</span>
-          <a href="https://www.linkedin.com/in/inna-dmytrenko/?locale=en_US"
-            >linkedin.com/in</a
-          >
+          </section>
+          <section class="project-examples">
+            <ul>
+              <h3>PROJECT EXAMPLES</h3>
+              <li>
+                <a
+                  href="https://www.figma.com/exit?url=https%3A%2F%2Felenmandrovskaya.github.io%2Fdream-film%2F"
+                  >FILMOTEKA</a
+                ><a href="https://github.com/inna-dmytrenko/dream-film"
+                  >https://github.com/</a
+                ><span
+                  >HTML, SASS, JS, Parcel, Handlebars, Firebase, REST API,
+                  Basiclightbox, Pnotify, Axios]
+                </span>
+                <p>
+                  The application where your movies are finally together. Role:
+                  Programmer.
+                </p>
+              </li>
+              <li>
+                <a href="https://kapusta-finance-tracker.netlify.app/"
+                  >KAPUSTA</a
+                ><a
+                  href="https://github.com/inna-dmytrenko/kapusta-itninja-front"
+                  >https://github.com/</a
+                >
+                <span>[HTML, Redux Toolkit, JS, Emotion]</span>
+                <p>Personal Finance Application. Role: Programmer.</p>
+              </li>
+              <li>
+                <a href="https://netlify-movies-hw-5.netlify.app/">MOVIES</a
+                ><a
+                  href="https://github.com/inna-dmytrenko/goit-react-hw-05-movies"
+                  >https://github.com/</a
+                >
+                <span
+                  >[HTML, CSS Modules, JS, Material-ui, React hooks, React,
+                  Loader]</span
+                >
+                <p>Application for choosing a movie.</p>
+              </li>
+              <li>
+                <a
+                  href="https://inna-dmytrenko.github.io/goit-react-hw-08-phonebook/"
+                  >PHONEBOOK</a
+                ><a
+                  href="https://github.com/inna-dmytrenko/goit-react-hw-08-phonebook"
+                  >https://github.com/</a
+                ><span
+                  >[HTML, Styled components, JS, Material-ui, React hooks,
+                  Axios,Nanoid, React]</span
+                >
+                <p>Application for writing contacts.</p>
+              </li>
+            </ul>
+          </section>
+          <section class="work-experience">
+            <h3>WORK EXPERIENCE</h3>
+            <ul>
+              <li>
+                <h4>Sberbank joint stock company</h4>
+                <span
+                  >Leading specialist in the department of invoices and
+                  payments</span
+                >
+                <span>2019, Kyev</span>
+                <span
+                  >Centralized processing of documents for the deposit of
+                  persons or legal entities; Transfer of documents for further
+                  processing; Consideration of applications from bank
+                  clients.</span
+                >
+              </li>
+              <li>
+                <h4>"ViYar"</h4>
+                <span>Сomputer operator</span><span>2018, Kyiv</span
+                ><span
+                  >Maintenance and analysis of reports in program 1C; Document
+                  management; Work at MS Office.
+                </span>
+              </li>
+            </ul>
+          </section>
+          <section class="education">
+            <h3>EDUCATION</h3>
+            <h4>Master's degree in Finance</h4>
+            <span>KROK University (Kyiv)</span><span>2004 | 2009 </span>
+          </section>
+          <section class="additional-education">
+            <h3>ADDITIONAL EDUCATION</h3>
+            <ul>
+              <li>
+                <h4>Front-end Developer</h4>
+                <span>JavaScript / Front-end 2022</span
+                ><span>RS School (remote) </span>
+              </li>
+              <li>
+                <h4>Full-Stack Developer</h4>
+                <span>IT School GoIT (Kyiv)</span><span>2020 | 2021</span>
+              </li>
+            </ul>
+          </section>
         </div>
-      </section>
-      <section class="summary">
-        <div>
-          <h3>SUMMARY</h3>
-          <p>
-            Efficient Front-End developer with skills in HTML, CSS, JavaScript,
-            and React. Search for a full-time position in a company that's aimed
-            at making both everyday life and business easier, more productive
-            and user- friendly. I have hands-on experience in following Agile
-            /Scrum methodology when working in a team. I'm ready to learn, and
-            I'm a fast learner, responsible, and ready for challenging tasks.
-          </p>
-        </div>
-      </section>
-      <section class="project-examples">
-        <ul>
-          <h3>PROJECT EXAMPLES</h3>
-          <li>
-            <a
-              href="https://www.figma.com/exit?url=https%3A%2F%2Felenmandrovskaya.github.io%2Fdream-film%2F"
-              >FILMOTEKA</a
-            ><a href="https://github.com/inna-dmytrenko/dream-film"
-              >https://github.com/</a
-            ><span
-              >HTML, SASS, JS, Parcel, Handlebars, Firebase, REST API,
-              Basiclightbox, Pnotify, Axios]
-            </span>
-            <p>
-              The application where your movies are finally together. Role:
-              Programmer.
-            </p>
-          </li>
-          <li>
-            <a href="https://kapusta-finance-tracker.netlify.app/">KAPUSTA</a
-            ><a href="https://github.com/inna-dmytrenko/kapusta-itninja-front"
-              >https://github.com/</a
-            >
-            <span>[HTML, Redux Toolkit, JS, Emotion]</span>
-            <p>
-              Personal Finance Application. Role: Programmer.
-            </p>
-          </li>
-          <li>
-            <a href="https://netlify-movies-hw-5.netlify.app/">MOVIES</a
-            ><a href="https://github.com/inna-dmytrenko/goit-react-hw-05-movies"
-              >https://github.com/</a
-            >
-            <span
-              >[HTML, CSS Modules, JS, Material-ui, React hooks, React,
-              Loader]</span
-            >
-            <p>
-              Application for choosing a movie.
-            </p>
-          </li>
-          <li>
-            <a
-              href="https://inna-dmytrenko.github.io/goit-react-hw-08-phonebook/"
-              >PHONEBOOK</a
-            ><a
-              href="https://github.com/inna-dmytrenko/goit-react-hw-08-phonebook"
-              >https://github.com/</a
-            ><span
-              >[HTML, Styled components, JS, Material-ui, React hooks,
-              Axios,Nanoid, React]</span
-            >
-            <p>
-              Application for writing contacts.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="work-experience">
-        <h3>WORK EXPERIENCE</h3>
-        <ul>
-          <li>
-            <h4>Sberbank joint stock company</h4>
-            <span
-              >Leading specialist in the department of invoices and
-              payments</span
-            >
-            <span>2019, Kyev</span>
-            <span
-              >Centralized processing of documents for the deposit of persons or
-              legal entities; Transfer of documents for further processing;
-              Consideration of applications from bank clients.</span
-            >
-          </li>
-          <li>
-            <h4>"ViYar"</h4>
-            <span>Сomputer operator</span><span>2018, Kyiv</span
-            ><span
-              >Maintenance and analysis of reports in program 1C; Document
-              management; Work at MS Office.
-            </span>
-          </li>
-        </ul>
-      </section>
-      <section class="education">
-        <h3>EDUCATION</h3>
-        <h4>Master's degree in Finance</h4>
-        <span>KROK University (Kyiv)</span><span>2004 | 2009 </span>
-      </section>
-      <section class="additional-education">
-        <h3>ADDITIONAL EDUCATION</h3>
-        <ul>
-          <li>
-            <h4>Front-end Developer</h4>
-            <span>JavaScript / Front-end 2022</span
-            ><span>RS School (remote) </span>
-          </li>
-          <li>
-            <h4>Full-Stack Developer</h4>
-            <span>IT School GoIT (Kyiv)</span><span>2020 | 2021</span>
-          </li>
-        </ul>
-      </section>
+      </div>
     </div>
   </body>
 </html>
