@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #397a3d;
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);;
 }
 
 a {
@@ -167,9 +167,30 @@ background-color: #0fb64149;
             border-radius: 5px;
             padding-left: 80px;
             width: 610px;
+            /* margin-bottom: 30px; */
            
 }
+.hr{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
 /* -----------------------------END RIGHT------------------------------ */
+/* -----------------------------SUMMARY------------------------------ */
+.para{
+    font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 40px;
+        /* or 154% */
+    
+    
+        color: #343434;
+            padding-top: 30px;
+            padding-bottom: 30px;
+}
+/* -----------------------------END SUMMARY------------------------------ */
 .circle {
 
     width: 10px;
