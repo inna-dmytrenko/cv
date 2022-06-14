@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/normalize.css" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Actor&family=Black+Ops+One&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.jpeg" />
     <title>CV</title>
   </head>
@@ -245,60 +253,76 @@
             </div>
           </section>
           <section class="project-examples">
-            <ul>
-              <div class="hr">
-                <h3 class="subtitle">PROJECT EXAMPLES</h3>
-                <hr width="160" />
-              </div>
-              <li>
+            <div class="hr">
+              <h3 class="subtitle">PROJECT EXAMPLES</h3>
+              <hr width="160" />
+            </div>
+            <ul class="project__list">
+              <li class="project__item">
                 <a
-                  href="https://www.figma.com/exit?url=https%3A%2F%2Felenmandrovskaya.github.io%2Fdream-film%2F"
+                  class="project-link__title"
+                  href="https://elenmandrovskaya.github.io/dream-film/"
                   >FILMOTEKA</a
-                ><a href="https://github.com/inna-dmytrenko/dream-film"
+                ><a
+                  class="project-link__git"
+                  href="https://github.com/inna-dmytrenko/dream-film"
                   >https://github.com/</a
-                ><span
+                ><span class="project__desc"
                   >HTML, SASS, JS, Parcel, Handlebars, Firebase, REST API,
                   Basiclightbox, Pnotify, Axios]
                 </span>
-                <p>
+                <p class="project__desc">
                   The application where your movies are finally together. Role:
                   Programmer.
                 </p>
               </li>
-              <li>
-                <a href="https://kapusta-finance-tracker.netlify.app/"
+              <li class="project__item">
+                <a
+                  class="project-link__title"
+                  href="https://kapusta-finance-tracker.netlify.app/"
                   >KAPUSTA</a
                 ><a
+                  class="project-link__git"
                   href="https://github.com/inna-dmytrenko/kapusta-itninja-front"
                   >https://github.com/</a
                 >
-                <span>[HTML, Redux Toolkit, JS, Emotion]</span>
-                <p>Personal Finance Application. Role: Programmer.</p>
+                <span class="project__desc"
+                  >[HTML, Redux Toolkit, JS, Emotion]</span
+                >
+                <p class="project__desc">
+                  Personal Finance Application. Role: Programmer.
+                </p>
               </li>
-              <li>
-                <a href="https://netlify-movies-hw-5.netlify.app/">MOVIES</a
+              <li class="project__item">
+                <a
+                  class="project-link__title"
+                  href="https://netlify-movies-hw-5.netlify.app/"
+                  >MOVIES</a
                 ><a
+                  class="project-link__git"
                   href="https://github.com/inna-dmytrenko/goit-react-hw-05-movies"
                   >https://github.com/</a
                 >
-                <span
+                <span class="project__desc"
                   >[HTML, CSS Modules, JS, Material-ui, React hooks, React,
                   Loader]</span
                 >
-                <p>Application for choosing a movie.</p>
+                <p class="project__desc">Application for choosing a movie.</p>
               </li>
-              <li>
+              <li class="project__item">
                 <a
+                  class="project-link__title"
                   href="https://inna-dmytrenko.github.io/goit-react-hw-08-phonebook/"
                   >PHONEBOOK</a
                 ><a
+                  class="project-link__git"
                   href="https://github.com/inna-dmytrenko/goit-react-hw-08-phonebook"
                   >https://github.com/</a
-                ><span
+                ><span class="project__desc"
                   >[HTML, Styled components, JS, Material-ui, React hooks,
                   Axios,Nanoid, React]</span
                 >
-                <p>Application for writing contacts.</p>
+                <p class="project__desc">Application for writing contacts.</p>
               </li>
             </ul>
           </section>
