@@ -146,7 +146,31 @@ background-color: #0fb64149;
         font-size: 36px;
         color: #FFFFFF
 }
+.tech{
+    font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 40px;
+        /* or 69% */
+    
+    
+        color: #FAFAFA;
+}
 /* -----------------------------END TECHNICAL SKILLS------------------------------ */
+/* -----------------------------SOFT SKILLS------------------------------ */
+.soft-skills__item{
+    font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 40px;
+        /* or 154% */
+    
+    
+        color: #FFFFFF;
+}
+/* -----------------------------END SOFT SKILLS------------------------------ */
 /* -----------------------------HOME------------------------------ */
 
 .home{
@@ -240,18 +264,30 @@ background-color: #0fb64149;
 }
 
 /* -----------------------------END PROJECT------------------------------ */
+/* -----------------------------WORK EXPERIENCE------------------------------ */
+.year{
+    color: #73808D;
+}
+/* -----------------------------END WORK EXPERIENCE------------------------------ */
+/* -----------------------------EDUCATION------------------------------ */
+/* -----------------------------END EDUCATION------------------------------ */
+/* -----------------------------ADDITIONAL EDUCATION------------------------------ */
+/* -----------------------------END ADDITIONAL EDUCATION------------------------------ */
 .circle {
 
-    width: 10px;
-    height: 10px;
-    background: red;
+    width: 20px;
+    height: 20px;
+    background: #545454;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
 }
+.circle.grey{
+    background-color: #CECACA;
+}
 .circle__list{
     display: flex;
-  
+  gap: 10px;
     /* align-items: center; */
     /* text-align: center; */
 }
