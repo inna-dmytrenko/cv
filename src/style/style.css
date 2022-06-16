@@ -41,7 +41,7 @@ font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 18px;
+    line-height: 1.20;
 }
 .header{
 margin: 0 auto;
@@ -73,7 +73,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 400;
         font-size: 64px;
-        /* line-height: 78px; */
+        line-height: 1.22;
     
         color: #CECACA;
         margin-bottom: 30px;
@@ -83,7 +83,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 500;
         font-size: 48px;
-        /* line-height: 60px; */
+        line-height: 1.25;
         /* identical to box height */
     margin-bottom: 30px;
     
@@ -94,7 +94,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        /* line-height: 40px; */
+        line-height: 1.25;
     margin-bottom: 50px;
         color: #CECACA;
         
@@ -114,7 +114,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.25;
         display: flex;
         align-items: center;
     
@@ -126,7 +126,7 @@ background-color: #0fb64149;
     fill: #FFFFFF;
 }
 .contact__item{
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     background-color: rgba(196, 196, 196, 0.35);
     border-radius: 10px;
@@ -144,18 +144,24 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        color: #FFFFFF
+        line-height: 1.54;
+        color: #FFFFFF;
+        /* margin-bottom: 20px; */
+}
+.sidbar .subtitle{
+    margin-bottom: 20px;
 }
 .tech{
     font-family: 'Actor';
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 40px;
-        /* or 69% */
-    
-    
+        line-height: 2;
+
         color: #FAFAFA;
+}
+.tech-skills__list, .soft-skills__list{
+    margin-bottom: 20px;
 }
 /* -----------------------------END TECHNICAL SKILLS------------------------------ */
 /* -----------------------------SOFT SKILLS------------------------------ */
@@ -164,7 +170,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 40px;
+        line-height: 1.54;
         /* or 154% */
     
     
@@ -207,8 +213,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 40px;
-        /* or 154% */
+    line-height: 1.54;
     
     
         color: #343434;
@@ -217,13 +222,15 @@ background-color: #0fb64149;
 }
 /* -----------------------------END SUMMARY------------------------------ */
 /* -----------------------------PROJECT------------------------------ */
+.project-examples, .work-experience, .education{
+    margin-bottom: 30px;
+}
 .project-link__title{
     font-family: 'Black Ops One';
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 18px;
-        /* or 69% */
+    line-height: 2;
     
     
         color: #343434;
@@ -233,7 +240,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 18px;
+        line-height: 2;
         /* or 90% */
     
         display: flex;
@@ -246,7 +253,7 @@ background-color: #0fb64149;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 40px;
+        line-height: 2;
         /* or 200% */
     
     
@@ -288,12 +295,11 @@ background-color: #0fb64149;
 .circle__list{
     display: flex;
   gap: 10px;
-    /* align-items: center; */
+  justify-content: center;
+    align-items: center;
     /* text-align: center; */
 }
-.tech-skills__list{
-   
-}
+
 .tech-skills__item{
     display: flex;
    
