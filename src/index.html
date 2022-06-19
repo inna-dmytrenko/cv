@@ -21,7 +21,7 @@
     <section class="header">
       <div class="container">
         <nav class="nav">
-          <a class="logo" href="#"
+          <a class="logo" href="#summary"
             ><img
               src="./assets/favicon/favicon.jpeg"
               alt=""
@@ -31,14 +31,17 @@
           <ul class="nav__list">
             <li class="nav__item"><a href="#summary" class="nav__link">Summary</a></li>
             <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+            <li class="nav__item">
+              <a href="#code">Code</a>
+            </li>
             <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
-            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li>
             <li class="nav__item">
               <a href="#education" class="nav__link">Education</a>
             </li>
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#languages" class="nav__link">Languages</a>
-            </li>
+            </li> -->
             <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
           </ul>
         </nav>
@@ -236,12 +239,24 @@
               </div>
             </li>
           </ul>
-          <div>
-            <h3 class="subtitle">Social</h3>
+          <div class="tech-skills__list">
+            <h3 class="subtitle ">Social</h3>
             <a class="soft-skills__item" href="https://www.linkedin.com/in/inna-dmytrenko/?locale=en_US"
               >linkedin.com/in</a
             >
           </div>
+          <section class="code" id="code">
+              <h2 class="subtitle ">Example code</h2>
+              <pre class="example__code tech">
+const calculate = (...x) 
+=> (...y) => {
+    return []
+        .concat(x, y)
+        .reduce((a, b) 
+        => a + b, 0);
+};
+  }</pre>
+            </section>
         </section>
         <div class="right">
           <section id="summary" class="summary">
@@ -349,20 +364,20 @@
                   payments</span
                 >
                 <p class="project__desc year" >2019, Kyev</p>
-                <span class="project__desc"
+                <p class="project__desc"
                   >Centralized processing of documents for the deposit of
                   persons or legal entities; Transfer of documents for further
                   processing; Consideration of applications from bank
-                  clients.</span
+                  clients.</p
                 >
               </li>
               <li>
                 <h4 class="project-link__title">"ViYar"</h4>
                 <span class="project__desc">Сomputer operator</span><p class="project__desc year" >2018, Kyiv</p
-                ><span class="project__desc"
+                ><p class="project__desc"
                   >Maintenance and analysis of reports in program 1C; Document
                   management; Work at MS Office.
-                </span>
+                </p>
               </li>
             </ul>
           </section>
@@ -373,7 +388,7 @@
             </div>
 
             <h4 class="project-link__title">Master's degree in Finance</h4>
-            <span class="project__desc">KROK University (Kyiv)</span><p class="project__desc year">2004 | 2009 </p>
+            <p class="project__desc">KROK University (Kyiv)</p><p class="project__desc year">2004 | 2009 </p>
           </section>
           <section class="additional-education">
             <div class="hr">
@@ -394,7 +409,28 @@
             </ul>
           </section>
         </div>
-      </div>
     </div>
+</div>
+
+<footer class="footer">
+        <div class="container">
+    <ul>
+    <li>
+      <a href="https://github.com/inna-dmytrenko">Welcome to my GitHub</a>
+    </li>
+    <li>
+      <p>&#9400; 2022</p>
+    </li>
+    <!-- <li>
+      <a href="https://rs.school/js/"
+        ><img
+          src="./assets/img/rs_school_js.svg"
+          alt="logo rs_school_js"
+          width="100"
+      /></a>
+    </li> -->
+    </ul>
+</div>
+    </footer>
   </body>
 </html>
