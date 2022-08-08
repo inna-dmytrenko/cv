@@ -1,9 +1,3 @@
-const calculate = (...x) =>
-    (...y) => {
-    return []
-        .concat(x, y)
-        .reduce((a, b) => a + b, 0);
-};
 const iconMenu = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav');
 const navLink = document.querySelector('.nav-list');
